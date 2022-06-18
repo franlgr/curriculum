@@ -4,10 +4,8 @@
     "private": true,
     "scripts": {
         "serve": "vue-cli-service serve",
-        "build": "node build/build.js",
-        "lint": "vue-cli-service lint",
-        "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
         "start": "npm run build & node server.js",
+        "build": "node build/build.js",
         "postinstall": "npm run build"
     },
     "dependencies": {
@@ -28,8 +26,10 @@
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-prettier": "^4.0.0",
         "eslint-plugin-vue": "^8.0.3",
+        "express": "^4.18.1",
         "postcss": "^8.4.14",
         "prettier": "^2.4.1",
+        "serve-static": "^1.15.0",
         "tailwindcss": "^1.9.6",
         "vue-template-compiler": "^2.6.14"
     },
