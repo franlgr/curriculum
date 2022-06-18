@@ -15,13 +15,22 @@
       <div class="text-gray-700 text-center p-4 bg-blue-600">
         © 2022 Copyright:
         <a class="text-gray-800" href="https://tailwind-elements.com/">Francisco L. Grillo Ruiz</a>
+        <BotComponent/>
       </div>
     </footer>
   </div>
 </template>
 
 <script>
+import BotComponent from "./components/botComponent.vue";
+
 // "build": "vue-cli-service build",
+export default {
+    component: {
+        BotComponent
+    },
+    components: { BotComponent }
+}
 </script>
 
 <style>

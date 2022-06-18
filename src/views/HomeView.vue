@@ -18,7 +18,7 @@
                 <br>
                 <div class="md:flex font-bold text-gray-800">
                   <div class="w-full md:w-1/2 flex space-x-3">
-                    <div class="w-1/2 hover:bg-green-200 shadow-lg shadow-teal-500/50 rounded">
+                    <div class="w-1/2 hover:bg-green-200 shadow-lg py-1 shadow-teal-500/50 rounded">
                       <a href="mailto:grilfran90@gmail.com">
                         <div class="flex justify-center items-center">
                           <img class="w-10 h-10 bg-none"
@@ -28,7 +28,7 @@
                         </p>
                       </a>
                     </div>
-                    <div class="w-1/2 hover:bg-green-200 rounded shadow-lg shadow-teal-500/50">
+                    <div class="w-1/2 hover:bg-green-200 rounded py-2 shadow-lg shadow-teal-500/50">
                       <a href="https://wa.me/543548417898">
                         <div class="flex justify-center items-center">
                           <img class="w-10 h-10" src="https://silly-jang-cee9aa.netlify.app/img/smartphone.342a8238.png"
@@ -39,14 +39,14 @@
                     </div>
                   </div>
                   <div class="w-full md:w-1/2 flex space-x-3">
-                    <div class="w-1/2 hover:bg-green-200 rounded shadow-lg shadow-teal-500/50">
+                    <div class="w-1/2 hover:bg-green-200 rounded py-2 shadow-lg shadow-teal-500/50">
                       <div class="flex justify-center items-center">
                         <img class="w-10 h-10" src="https://silly-jang-cee9aa.netlify.app/img/location.82273d10.png"
                           alt="">
                       </div>
                       <p class="flex justify-center items-center">La Cumbre, Córdoba</p>
                     </div>
-                    <div class="w-1/2 hover:bg-green-200 rounded shadow-lg shadow-teal-500/50">
+                    <div class="w-1/2 hover:bg-green-200 rounded py-2 shadow-lg shadow-teal-500/50">
                       <a href="https://github.com/franlgr">
                         <div class="flex justify-center items-center">
                           <img class="w-10 h-10" src="https://silly-jang-cee9aa.netlify.app/img/github.b37b05a7.png"
@@ -59,6 +59,35 @@
                 </div>
               </div>
             </div>
+            <!--Languages-->
+            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+              <p class="leading-relaxed text-base text-2xl flex justify-center items-center">Languages</p>
+              <hr>
+              <br>
+              <div class="md:flex font-bold text-gray-800">
+                <div class="w-full md:w-33 flex space-x-3">
+                  <div class="w-full hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                    <div class="flex justify-center items-center">
+                      <img class="w-10 h-10 rounded" src="../assets/jslogo.jpg" alt="">
+                    </div>
+                    <p class="flex justify-center items-center">Javascript</p>
+                  </div>
+                  <div class="w-full hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                    <div class="flex justify-center items-center">
+                      <img class="w-10 h-10 rounded" src="../assets/htmllogo.jpg" alt="">
+                    </div>
+                    <p class="flex justify-center items-center">HTML</p>
+                  </div>
+                  <div class="w-full hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                    <div class="flex justify-center items-center">
+                      <img class="w-10 h-10 rounded" src="../assets/csslogo.png" alt="">
+                    </div>
+                    <p class="flex justify-center items-center">Css</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!---->
             <!--Skills-->
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <p class="leading-relaxed text-base text-2xl flex justify-center items-center">Skills</p>
@@ -66,59 +95,28 @@
               <br>
               <div class="md:flex font-bold text-gray-800">
                 <div class="w-full md:w-1/2 flex space-x-3">
-                  <div class="w-1/2 hover:bg-green-200 shadow-lg shadow-teal-500/50 rounded-full">
+                  <div class="w-1/2 hover:bg-green-200 shadow-lg py-1 shadow-teal-500/50 rounded-full">
                     <div class="flex justify-center items-center">
                       <img class="w-10 h-10 rounded" src="../assets/logo.png" alt="">
-                    </div>
-                    <p class="flex justify-center items-center">Vuejs</p>
-                  </div>
-                  <div class="w-1/2 hover:bg-green-200 rounded shadow-lg shadow-teal-500/50 rounded-full">
-                    <div class="flex justify-center items-center">
                       <img class="w-10 h-10 rounded" src="../assets/nuxtlogo.png" alt="">
                     </div>
-                    <p class="flex justify-center items-center">Nuxtjs</p>
+                    <p class="flex justify-center items-center">Vue.js & Nuxt.js</p>
                   </div>
-                </div>
-                <div class="w-full md:w-1/2 flex space-x-3">
-                  <div class="w-1/2 hover:bg-green-200 rounded shadow-lg shadow-teal-500/50 rounded-full">
+                  <div class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                     <div class="flex justify-center items-center">
                       <img class="w-10 h-10 rounded" src="../assets/tailwindlogo.png" alt="">
                     </div>
-                    <p class="flex justify-center items-center">Tailwind</p>
+                    <p class="flex justify-center items-center">TailwindCss</p>
                   </div>
-                  <div class="w-1/2 hover:bg-green-200 rounded shadow-lg shadow-teal-500/50 rounded-full">
+                </div>
+                <div class="w-full md:w-1/2 flex space-x-3">
+                  <div class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                     <div class="flex justify-center items-center">
                       <img class="w-10 h-10 rounded" src="../assets/bootstraplogo.png" alt="">
                     </div>
                     <p class="flex justify-center items-center">Bootstrap</p>
                   </div>
-                </div>
-              </div>
-              <br>
-              <!---->
-              <div class="md:flex font-bold text-gray-800">
-                <div class="w-full md:w-1/2 flex space-x-3">
-                  <div class="w-1/2 hover:bg-green-200 rounded shadow-lg shadow-teal-500/50 rounded-full">
-                    <div class="flex justify-center items-center">
-                      <img class="w-10 h-10 rounded" src="../assets/jslogo.jpg" alt="">
-                    </div>
-                    <p class="flex justify-center items-center">Javascript</p>
-                  </div>
-                  <div class="w-1/2 hover:bg-green-200 rounded shadow-lg shadow-teal-500/50 rounded-full">
-                    <div class="flex justify-center items-center">
-                      <img class="w-10 h-10 rounded" src="../assets/jslogo.jpg" alt="">
-                    </div>
-                    <p class="flex justify-center items-center">HTML:5</p>
-                  </div>
-                </div>
-                <div class="w-full md:w-1/2 flex space-x-3">
-                  <div class="w-1/2 hover:bg-green-200 rounded shadow-lg shadow-teal-500/50 rounded-full">
-                    <div class="flex justify-center items-center">
-                      <img class="w-10 h-10 rounded" src="../assets/csslogo.png" alt="">
-                    </div>
-                    <p class="flex justify-center items-center">Css-Grid-&-Flex</p>
-                  </div>
-                  <div class="w-1/2 hover:bg-green-200 rounded shadow-lg shadow-teal-500/50 rounded-full">
+                  <div class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                     <div class="flex justify-center items-center">
                       <img class="w-10 h-10 rounded" src="../assets/gitlogo.png" alt="">
                     </div>
@@ -126,7 +124,9 @@
                   </div>
                 </div>
               </div>
+              <br>
             </div>
+            <!---->
 
             <!--Skills(2)-->
             <!-- <div
