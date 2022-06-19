@@ -12,7 +12,7 @@
                 <img class="rounded-full border-double border-4 border-indigo-600 " src="../assets/perfil.jpg" />
               </div>
               <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                <h1 class="text-black text-3xl title-font font-bold mb-2">Francisco L. Grillo Ruiz</h1>
+                <h1 class="text-black text-3xl title-font font-bold mb-2">Francisco Grillo</h1>
                 <p class="leading-relaxed text-base text-2xl">Front-End Developer</p>
                 <hr>
                 <br>
@@ -210,16 +210,15 @@ export default {
   name: "HomeView",
   data() {
     return {
-      mensaje: "",
-      mensajes:[]
+     
   }
   },
-  methods: {
-    disparar() {
-      console.log(this.mensaje);
-      this.mensajes.push(this.mensaje)
-  }
- }
+//   methods: {
+//     disparar() {
+//       console.log(this.mensaje);
+//       this.mensajes.push(this.mensaje)
+//   }
+//  }
   }
 
 </script>

