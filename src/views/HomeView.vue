@@ -155,19 +155,21 @@
 
                 </div>
               </div>
-              <div class="w-full md:w-full flex space-x-3 flex justify-center items-center">
+              <div class="w-full md:w-full space-x-3 flex justify-center items-center">
                 <div class="max-w-full rounded overflow-hidden shadow-lg" v-if="congrats">
                   <div class="flex justify-center items-center">
                     <img class="w-40 py-4" src="../assets/yendo.png" alt="Sunset in the mountains">
                   </div>
                   <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">Yendo.site</div>
-                    <p class="text-gray-700 text-base">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-                      perferendis eaque, exercitationem praesentium nihil.
-                    </p>
+                    <div class="font-bold text-xl mb-2 flex justify-center items-center">Yendo.site</div>
+                    <div class="flex justify-center items-center">
+                      <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
+                        perferendis eaque, exercitationem praesentium nihil.
+                      </p>
+                    </div>
                   </div>
-                  <div class="px-6 pt-4 pb-2">
+                  <div class="px-6 pt-4 pb-2 flex justify-center items-center">
                     <span
                       class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
                     <span
@@ -183,13 +185,17 @@
                   </div>
 
                   <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">Movimiento popular La Dignidad</div>
-                    <p class="text-gray-700 text-base">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-                      perferendis eaque, exercitationem praesentium nihil.
-                    </p>
+                    <div class="font-bold text-xl mb-2 flex justify-center items-center">Movimiento popular La Dignidad
+                    </div>
+                    <div class="flex justify-center items-center">
+                      <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
+                        perferendis eaque, exercitationem praesentium nihil.
+                      </p>
+                    </div>
+
                   </div>
-                  <div class="px-6 pt-4 pb-2">
+                  <div class="px-6 pt-4 pb-2 flex justify-center items-center">
                     <span
                       class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
                     <span
