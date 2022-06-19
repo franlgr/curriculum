@@ -145,19 +145,21 @@
                   <div class="flex justify-center items-center">
                     <p>Yendo.site</p>
                   </div>
-                  
+
                 </div>
                 <div v-on:click="success =!success"
                   class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                   <div class="flex justify-center items-center">
                     <p>Movimiento popular La Dignidad</p>
                   </div>
-                  
+
                 </div>
               </div>
               <div class="w-full md:w-full flex space-x-3 flex justify-center items-center">
                 <div class="max-w-full rounded overflow-hidden shadow-lg" v-if="congrats">
-                  <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
+                  <div class="flex justify-center items-center">
+                    <img class="w-40 py-4" src="../assets/yendo.png" alt="Sunset in the mountains">
+                  </div>
                   <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Yendo.site</div>
                     <p class="text-gray-700 text-base">
@@ -176,7 +178,10 @@
                 </div>
                 <!---->
                 <div class="max-w-full rounded overflow-hidden shadow-lg" v-if="success">
-                  <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
+                  <div class="flex justify-center items-center">
+                    <img class="w-40 py-4 rounded-full" src="../assets/dignidad.jpg" alt="Sunset in the mountains">
+                  </div>
+
                   <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Movimiento popular La Dignidad</div>
                     <p class="text-gray-700 text-base">
