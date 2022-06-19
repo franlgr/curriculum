@@ -22,16 +22,19 @@
 </template>
 
 <script>
+// import { ValidationProvider } from 'vee-validate';
+// Vue.component('ValidationProvider', ValidationProvider);
 import BotComponent from "./components/botComponent.vue";
 
 // "build": "vue-cli-service build",
 export default {
-  name: "cv-frang",
+  
   metaInfo: {
     title: 'CV-FranG'
   },
     components: {
-        BotComponent
+      BotComponent,
+      // ValidationProvider
     }
   // , mounted: {
   //   document:onkeydown = function (e) {

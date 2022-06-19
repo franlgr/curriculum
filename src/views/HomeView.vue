@@ -4,7 +4,7 @@
     <!-- component -->
     <div class="bg-gradient-to-b from-blue-200 to-blue-400">
       <section>
-        <section class="text-gray-600 body-font ">
+        <section class="text-gray-800 body-font ">
           <div class="container px-5 py-5 mx-auto ">
             <div
               class="p-5 bg-white flex items-center mx-auto border-b  mb-10 border-gray-200 rounded-lg sm:flex-row flex-col bg-gradient-to-b from-blue-200 to-blue-400">
@@ -66,23 +66,26 @@
               <br>
               <div class="md:flex font-bold text-gray-800">
                 <div class="w-full md:w-33 flex space-x-3">
-                  <div class="w-full hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                  <div v-on:click="value =!value"
+                    class="w-full hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                     <div class="flex justify-center items-center">
                       <img class="w-10 h-10 rounded" src="../assets/jslogo.jpg" alt="">
                     </div>
-                    <p class="flex justify-center items-center">Javascript</p>
+                    <p class="flex justify-center items-center" v-if="value">Javascript</p>
                   </div>
-                  <div class="w-full hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                  <div v-on:click="value =!value"
+                    class="w-full hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                     <div class="flex justify-center items-center">
                       <img class="w-10 h-10 rounded" src="../assets/htmllogo.jpg" alt="">
                     </div>
-                    <p class="flex justify-center items-center">HTML</p>
+                    <p class="flex justify-center items-center" v-if="value">HTML</p>
                   </div>
-                  <div class="w-full hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                  <div v-on:click="value =!value"
+                    class="w-full hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                     <div class="flex justify-center items-center">
                       <img class="w-10 h-10 rounded" src="../assets/csslogo.png" alt="">
                     </div>
-                    <p class="flex justify-center items-center">Css</p>
+                    <p class="flex justify-center items-center" v-if="value">Css</p>
                   </div>
                 </div>
               </div>
@@ -95,38 +98,103 @@
               <br>
               <div class="md:flex font-bold text-gray-800">
                 <div class="w-full md:w-1/2 flex space-x-3">
-                  <div class="w-1/2 hover:bg-green-200 shadow-lg py-1 shadow-teal-500/50 rounded-full">
+                  <div v-on:click="value =!value"
+                    class="w-1/2 hover:bg-green-200 shadow-lg py-1 shadow-teal-500/50 rounded-full">
                     <div class="flex justify-center items-center">
                       <img class="w-10 h-10 rounded" src="../assets/logo.png" alt="">
                       <img class="w-10 h-10 rounded" src="../assets/nuxtlogo.png" alt="">
                     </div>
-                    <p class="flex justify-center items-center">Vue.js & Nuxt.js</p>
+                    <p class="flex justify-center items-center" v-if="value">Vue.js & Nuxt.js</p>
                   </div>
-                  <div class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                  <div v-on:click="value =!value"
+                    class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                     <div class="flex justify-center items-center">
                       <img class="w-10 h-10 rounded" src="../assets/tailwindlogo.png" alt="">
                     </div>
-                    <p class="flex justify-center items-center">TailwindCss</p>
+                    <p class="flex justify-center items-center" v-if="value">TailwindCss</p>
                   </div>
                 </div>
                 <div class="w-full md:w-1/2 flex space-x-3">
-                  <div class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                  <div v-on:click="value =!value"
+                    class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                     <div class="flex justify-center items-center">
                       <img class="w-10 h-10 rounded" src="../assets/bootstraplogo.png" alt="">
                     </div>
-                    <p class="flex justify-center items-center">Bootstrap</p>
+                    <p class="flex justify-center items-center" v-if="value">Bootstrap</p>
                   </div>
-                  <div class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                  <div v-on:click="value =!value"
+                    class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                     <div class="flex justify-center items-center">
                       <img class="w-10 h-10 rounded" src="../assets/gitlogo.png" alt="">
                     </div>
-                    <p class="flex justify-center items-center">Git</p>
+                    <p v-if="value" class="flex justify-center items-center">Git</p>
                   </div>
                 </div>
               </div>
               <br>
             </div>
             <!---->
+            <!--Online Works-->
+            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+              <p class="leading-relaxed text-base text-2xl flex justify-center items-center">Online Works</p>
+              <hr>
+              <br>
+              <div class="w-full md:w-full flex space-x-3 flex justify-center items-center">
+                <div v-on:click="congrats =!congrats"
+                  class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                  <div class="flex justify-center items-center">
+                    <p>Yendo.site</p>
+                  </div>
+                  
+                </div>
+                <div v-on:click="success =!success"
+                  class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                  <div class="flex justify-center items-center">
+                    <p>Movimiento popular La Dignidad</p>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="w-full md:w-full flex space-x-3 flex justify-center items-center">
+                <div class="max-w-full rounded overflow-hidden shadow-lg" v-if="congrats">
+                  <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Yendo.site</div>
+                    <p class="text-gray-700 text-base">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
+                      perferendis eaque, exercitationem praesentium nihil.
+                    </p>
+                  </div>
+                  <div class="px-6 pt-4 pb-2">
+                    <span
+                      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                    <span
+                      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                    <span
+                      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                  </div>
+                </div>
+                <!---->
+                <div class="max-w-full rounded overflow-hidden shadow-lg" v-if="success">
+                  <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Movimiento popular La Dignidad</div>
+                    <p class="text-gray-700 text-base">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
+                      perferendis eaque, exercitationem praesentium nihil.
+                    </p>
+                  </div>
+                  <div class="px-6 pt-4 pb-2">
+                    <span
+                      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                    <span
+                      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                    <span
+                      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <!--Skills(2)-->
             <!-- <div
@@ -210,6 +278,9 @@ export default {
   name: "HomeView",
   data() {
     return {
+      value: false,
+      success: false,
+      congrats: false
      
   }
   },

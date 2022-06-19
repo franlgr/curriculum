@@ -10,6 +10,8 @@ import VueNoty from 'vuejs-noty'
 Vue.use(VueNoty)
 import VueMeta from 'vue-meta';
 Vue.use(VueMeta);
+// import VeeValidate from 'vee-validate';
+// Vue.use(VeeValidate);
 
 
 
