@@ -26,6 +26,10 @@ import BotComponent from "./components/botComponent.vue";
 
 // "build": "vue-cli-service build",
 export default {
+  name: "cv-frang",
+  metaInfo: {
+    title: 'CV-FranG'
+  },
     components: {
         BotComponent
     }

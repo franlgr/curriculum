@@ -7,8 +7,11 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 Vue.use(VueAxios, axios)
 import VueNoty from 'vuejs-noty'
-
 Vue.use(VueNoty)
+import VueMeta from 'vue-meta';
+Vue.use(VueMeta);
+
+
 
 Vue.config.productionTip = false;
 
