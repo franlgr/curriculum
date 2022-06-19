@@ -13,9 +13,9 @@
     <router-view />
     <footer class="bg-gray-200 text-center lg:text-left">
       <div class="text-gray-700 text-center p-4 bg-blue-600">
+        <BotComponent />
         © 2022 Copyright:
-        <a class="text-gray-800" href="https://tailwind-elements.com/">Francisco L. Grillo Ruiz</a>
-        <BotComponent/>
+        <a class="text-gray-800" href="https://tailwind-elements.com/">Francisco Grillo</a>
       </div>
     </footer>
   </div>
@@ -26,12 +26,9 @@ import BotComponent from "./components/botComponent.vue";
 
 // "build": "vue-cli-service build",
 export default {
-    component: {
+    components: {
         BotComponent
-    },
-  components: {
-    BotComponent
-  }
+    }
   // , mounted: {
   //   document:onkeydown = function (e) {
   //     if (e.keyCode === 123) {
