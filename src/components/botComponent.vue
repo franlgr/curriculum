@@ -42,6 +42,7 @@ export default {
     }, methods: {
 
         sendMsg() {
+            document.getElementById("exampleFormControlTextarea1").value = "";
             this.axios.post('https://api.telegram.org/bot5475454785:AAE-wix9C4qRg57VMvCm7hP9aBr9J3-vVls/sendMessage?chat_id=-778791005', {
                 chat_id: this.chat_id,
                 text: "Mensaje: " + this.mensaje
