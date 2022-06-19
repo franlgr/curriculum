@@ -30,7 +30,7 @@ import BotComponent from "./components/botComponent.vue";
 export default {
   
   metaInfo: {
-    title: 'CV-FranG'
+    title: 'CV-Fran.G'
   },
     components: {
       BotComponent,
