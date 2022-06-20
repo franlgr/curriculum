@@ -195,17 +195,21 @@
                     </div>
                   </div>
                   <div class="px-6 pt-4 pb-2 flex justify-center items-center">
-                    <a href="https://mp-rural-dignidad.herokuapp.com/">
-                      <span
-                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
-                        a MP-La Dignidad(v2)</span>
-                    </a>
+                    <div>
+                      <a href="https://mp-rural-dignidad.herokuapp.com/">
+                        <span
+                          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
+                          a MP-LD</span>
+                      </a>
+                    </div>
                     <br>
-                    <a href="https://mp-ladignidad.herokuapp.com/">
-                      <span
-                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
-                        a versión 1</span>
-                    </a>
+                    <div>
+                      <a href="https://mp-ladignidad.herokuapp.com/">
+                        <span
+                          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
+                          a (v1)</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
