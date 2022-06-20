@@ -149,7 +149,7 @@
                 <div v-on:click="success =!success"
                   class="bg-gradient-to-b from-blue-300 to-blue-600 w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                   <div class="flex justify-center items-center">
-                    <p>Movimiento popular La Dignidad</p>
+                    <p>MP- La Dignidad</p>
                   </div>
                 </div>
               </div>
