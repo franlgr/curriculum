@@ -145,14 +145,12 @@
                   <div class="flex justify-center items-center">
                     <p>Yendo.site</p>
                   </div>
-
                 </div>
                 <div v-on:click="success =!success"
                   class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                   <div class="flex justify-center items-center">
                     <p>Movimiento popular La Dignidad</p>
                   </div>
-
                 </div>
               </div>
               <div class="w-full md:w-full space-x-3 flex justify-center items-center">
@@ -194,7 +192,6 @@
                           Creada y diseñada por mi. Usando Nuxt.js, TailwindCss y Axios entro otros. En producción.
                         </p>
                       </a>
-
                     </div>
                   </div>
                   <div class="px-6 pt-4 pb-2 flex justify-center items-center">
@@ -203,6 +200,7 @@
                         class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
                         a MP-La Dignidad(v2)</span>
                     </a>
+                    <br>
                     <a href="https://mp-ladignidad.herokuapp.com/">
                       <span
                         class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
