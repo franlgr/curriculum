@@ -141,74 +141,83 @@
               <br>
               <div class=" w-full md:w-full space-x-3 flex justify-center items-center">
                 <div v-on:click="congrats =!congrats"
-                  class="bg-gradient-to-b from-blue-300 to-blue-600 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                  class="bg-gradient-to-b from-blue-300 to-blue-600 w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                   <div class="flex justify-center items-center">
                     <p>Yendo.site</p>
                   </div>
                 </div>
                 <div v-on:click="success =!success"
-                  class="bg-gradient-to-b from-blue-300 to-blue-600 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                  class="bg-gradient-to-b from-blue-300 to-blue-600 w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                   <div class="flex justify-center items-center">
                     <p>MP- La Dignidad</p>
                   </div>
                 </div>
               </div>
-              <!---->
-              <div class="w-full md:w-full space-x-3 flex justify-center items-center" style="margin-top: 10px">
-                <div class="bg-gradient-to-b from-blue-300 to-blue-600 max-w-full rounded overflow-hidden shadow-lg"
-                  v-if="congrats">
-                  <div class="flex justify-center items-center">
-                    <img class="w-40 py-3" src="../assets/yendo.png" alt="Sunset in the mountains">
-                  </div>
-                  <div class="px-6">
-                    <div class="font-bold text-xl mb-2 flex justify-center items-center">Helper in Yendo.site</div>
-                    <div class="">
-                      <p class="text-gray-700 text-xl">Layaout assistant.</p>
-                    </div>
-                  </div>
-                  <div class="px-6 pt-4 pb-2 flex justify-center items-center">
-                    <a href="http://yendo.site">
-                      <span
-                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
-                        a Yendo.site</span>
-                    </a>
+            </div>
+            <!---->
+            <div class="w-full md:w- space-x-3 flex justify-center items-center" style="margin-top: 10px">
+              <div
+                class="bg-gradient-to-b w-full from-blue-300 to-blue-600 max-w-full rounded overflow-hidden shadow-lg"
+                v-if="congrats">
+                <button v-on:click="congrats =!congrats" class="bg-none" style="float:right; margin:3px;">X</button>
+                <div class="flex justify-center items-center">
+                  <img class="w-40 py-3" src="../assets/yendo.png" alt="Loading img...">
+
+                </div>
+                <div class="px-6">
+                  <div class="font-bold text-xl mb-2 flex justify-center items-center">Helper in Yendo.site</div>
+                  <div class="">
+                    <p class="text-gray-700 text-xl">Layaout assistant.</p>
                   </div>
                 </div>
-                <!---->
-                <div class="bg-gradient-to-b from-blue-300 py-3 to-blue-600 max-w-full rounded overflow-hidden shadow-lg"
-                  v-if="success">
+                <div class="px-6 pt-4 pb-2 flex justify-center items-center">
+                  <a href="http://yendo.site">
+                    <span
+                      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
+                      a Yendo.site</span>
+                  </a>
+                </div>
+              </div>
+              <!---->
+              <div
+                class="bg-gradient-to-b w-full from-blue-300 to-blue-600 max-w-full rounded overflow-hidden shadow-lg"
+                v-if="success">
+                <button v-on:click="success =!success" class="bg-none" style="float:right; margin:3px;">X</button>
+                <div class="flex justify-center items-center">
+                  <img class="w-40 rounded-full" src="../assets/dignidad.jpg" alt="Loading img..." style="margin:10px;">
+                </div>
+                <div class="px-6">
+                  <div class="font-bold text-xl mb-2 flex justify-center items-center">Creator in MP- La Dignidad
+                  </div>
                   <div class="flex justify-center items-center">
-                    <img class="w-40 rounded-full" src="../assets/dignidad.jpg" alt="Sunset in the mountains">
+                    <p class="text-gray-700 text-xl">
+                      Administrator.
+                    </p>
                   </div>
-                  <div class="px-6">
-                    <div class="font-bold text-xl mb-2 flex justify-center items-center">Creator in MP- La Dignidad
-                    </div>
-                    <div class="flex justify-center items-center">
-                        <p class="text-gray-700 text-xl">
-                         Administrator.
-                        </p>
-                    </div>
+                </div>
+                <div class="px-6 pt-4 pb-2 flex justify-center items-center">
+                  <div>
+                    <a href="https://mp-rural-dignidad.herokuapp.com/">
+                      <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
+                        a MP-LD</span>
+                    </a>
                   </div>
-                  <div class="px-6 pt-4 pb-2 flex justify-center items-center">
-                    <div>
-                      <a href="https://mp-rural-dignidad.herokuapp.com/">
-                        <span
-                          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
-                          a MP-LD</span>
-                      </a>
-                    </div>
-                    <br>
-                    <div>
-                      <a href="https://mp-ladignidad.herokuapp.com/">
-                        <span
-                          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
-                          a (v1)</span>
-                      </a>
-                    </div>
+                  <br>
+                  <div>
+                    <a href="https://mp-ladignidad.herokuapp.com/">
+                      <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
+                        a (v1)</span>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
+
+
+
 
             <!--Skills(2)-->
             <!-- <div
