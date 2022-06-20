@@ -155,7 +155,7 @@
               </div>
               <!---->
               <div class="w-full md:w-full space-x-3 flex justify-center items-center" style="margin-top: 10px">
-                <div class="w-1/2 bg-gradient-to-b from-blue-300 to-blue-600 max-w-full rounded overflow-hidden shadow-lg"
+                <div class="bg-gradient-to-b from-blue-300 to-blue-600 max-w-full rounded overflow-hidden shadow-lg"
                   v-if="congrats">
                   <div class="flex justify-center items-center">
                     <img class="w-40 py-4" src="../assets/yendo.png" alt="Sunset in the mountains">
@@ -179,7 +179,7 @@
                   </div>
                 </div>
                 <!---->
-                <div class="w-1/2 bg-gradient-to-b from-blue-300 py-3 to-blue-600 max-w-full rounded overflow-hidden shadow-lg"
+                <div class="bg-gradient-to-b from-blue-300 py-3 to-blue-600 max-w-full rounded overflow-hidden shadow-lg"
                   v-if="success">
                   <div class="flex justify-center items-center">
                     <img class="w-40 rounded-full" src="../assets/dignidad.jpg" alt="Sunset in the mountains">
