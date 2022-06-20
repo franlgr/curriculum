@@ -201,7 +201,12 @@
                     <a href="https://mp-rural-dignidad.herokuapp.com/">
                       <span
                         class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
-                        a MP-La Dignidad</span>
+                        a MP-La Dignidad(v2)</span>
+                    </a>
+                    <a href="https://mp-ladignidad.herokuapp.com/">
+                      <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
+                        a versión 1</span>
                     </a>
                   </div>
                 </div>
