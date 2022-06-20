@@ -15,9 +15,11 @@
         "vee-validate": "^4.5.11",
         "vue": "^2.6.14",
         "vue-axios": "^3.4.1",
+        "vue-google-adsense": "^1.10.1",
         "vue-meta": "^2.4.0",
         "vue-notify": "^1.0.9",
         "vue-router": "^3.5.1",
+        "vue-script2": "^2.1.0",
         "vuejs-noty": "^0.1.4",
         "vuex": "^3.6.2"
     },

@@ -12,6 +12,13 @@ import VueMeta from 'vue-meta';
 Vue.use(VueMeta);
 // import VeeValidate from 'vee-validate';
 // Vue.use(VeeValidate);
+import Ads from 'vue-google-adsense'
+
+Vue.use(require('vue-script2'))
+
+Vue.use(Ads.Adsense)
+Vue.use(Ads.InArticleAdsense)
+Vue.use(Ads.InFeedAdsense)
 
 
 
