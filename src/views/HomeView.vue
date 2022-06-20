@@ -158,16 +158,12 @@
                 <div class="bg-gradient-to-b from-blue-300 to-blue-600 max-w-full rounded overflow-hidden shadow-lg"
                   v-if="congrats">
                   <div class="flex justify-center items-center">
-                    <img class="w-40 py-4" src="../assets/yendo.png" alt="Sunset in the mountains">
+                    <img class="w-40 py-3" src="../assets/yendo.png" alt="Sunset in the mountains">
                   </div>
-                  <div class="px-6 py-4">
+                  <div class="px-6">
                     <div class="font-bold text-xl mb-2 flex justify-center items-center">Yendo.site</div>
                     <div class="">
-                      <p class="text-gray-700 text-base">
-                        Yendo.site es una app para encontrar todos los eventos en un solo lugar. Diseñada y creada por
-                        un amigo Senior.
-                        Ayudo maquetando algunos componentes con vue.js & Nuxt.js. también usando Apis para conectar
-                        datos. </p>
+                      <p class="text-gray-700 text-xl">Helper</p>
                     </div>
                   </div>
                   <div class="px-6 pt-4 pb-2 flex justify-center items-center">
@@ -184,17 +180,13 @@
                   <div class="flex justify-center items-center">
                     <img class="w-40 rounded-full" src="../assets/dignidad.jpg" alt="Sunset in the mountains">
                   </div>
-                  <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2 flex justify-center items-center">Movimiento popular La Dignidad
+                  <div class="px-6">
+                    <div class="font-bold text-xl mb-2 flex justify-center items-center">MP- La Dignidad
                     </div>
                     <div class="flex justify-center items-center">
-                      <a href="https://mp-rural-dignidad.herokuapp.com/">
-                        <p class="text-gray-700 text-base">
-                          MP-La Dignidad es un sitio para brindar información sobre las actividades y los hechos más
-                          importantes de la organización social.
-                          Creada y diseñada por mi. Usando Nuxt.js, TailwindCss y Axios entro otros. En producción.
+                        <p class="text-gray-700 text-xl">
+                         Creator
                         </p>
-                      </a>
                     </div>
                   </div>
                   <div class="px-6 pt-4 pb-2 flex justify-center items-center">
