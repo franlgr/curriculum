@@ -141,13 +141,13 @@
               <br>
               <div class=" w-full md:w-full space-x-3 flex justify-center items-center">
                 <div v-on:click="congrats =!congrats"
-                  class="bg-gradient-to-b from-blue-300 to-blue-600 w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                  class="bg-gradient-to-b from-blue-300 to-blue-600 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                   <div class="flex justify-center items-center">
                     <p>Yendo.site</p>
                   </div>
                 </div>
                 <div v-on:click="success =!success"
-                  class="bg-gradient-to-b from-blue-300 to-blue-600 w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                  class="bg-gradient-to-b from-blue-300 to-blue-600 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                   <div class="flex justify-center items-center">
                     <p>MP- La Dignidad</p>
                   </div>
@@ -161,9 +161,9 @@
                     <img class="w-40 py-3" src="../assets/yendo.png" alt="Sunset in the mountains">
                   </div>
                   <div class="px-6">
-                    <div class="font-bold text-xl mb-2 flex justify-center items-center">Yendo.site</div>
+                    <div class="font-bold text-xl mb-2 flex justify-center items-center">Helper in Yendo.site</div>
                     <div class="">
-                      <p class="text-gray-700 text-xl">Helper</p>
+                      <p class="text-gray-700 text-xl">Layaout assistant.</p>
                     </div>
                   </div>
                   <div class="px-6 pt-4 pb-2 flex justify-center items-center">
@@ -181,11 +181,11 @@
                     <img class="w-40 rounded-full" src="../assets/dignidad.jpg" alt="Sunset in the mountains">
                   </div>
                   <div class="px-6">
-                    <div class="font-bold text-xl mb-2 flex justify-center items-center">MP- La Dignidad
+                    <div class="font-bold text-xl mb-2 flex justify-center items-center">Creator in MP- La Dignidad
                     </div>
                     <div class="flex justify-center items-center">
                         <p class="text-gray-700 text-xl">
-                         Creator
+                         Administrator.
                         </p>
                     </div>
                   </div>
