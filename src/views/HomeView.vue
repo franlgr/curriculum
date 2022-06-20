@@ -136,25 +136,27 @@
             <!---->
             <!--Online Works-->
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <p class="leading-relaxed text-base text-2xl flex justify-center items-center">Online Works</p>
+              <p class="leading-relaxed text-2xl flex justify-center items-center">Online Works</p>
               <hr>
               <br>
-              <div class="w-full md:w-full flex space-x-3 flex justify-center items-center">
+              <div class=" w-full md:w-full space-x-3 flex justify-center items-center">
                 <div v-on:click="congrats =!congrats"
-                  class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                  class="bg-gradient-to-b from-blue-300 to-blue-600 w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                   <div class="flex justify-center items-center">
                     <p>Yendo.site</p>
                   </div>
                 </div>
                 <div v-on:click="success =!success"
-                  class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                  class="bg-gradient-to-b from-blue-300 to-blue-600 w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                   <div class="flex justify-center items-center">
                     <p>Movimiento popular La Dignidad</p>
                   </div>
                 </div>
               </div>
-              <div class="w-full md:w-full space-x-3 flex justify-center items-center">
-                <div class="max-w-full rounded overflow-hidden shadow-lg" v-if="congrats">
+              <!---->
+              <div class="w-full md:w-full space-x-3 flex justify-center items-center" style="margin-top: 10px">
+                <div class="bg-gradient-to-b from-blue-300 to-blue-600 max-w-full rounded overflow-hidden shadow-lg"
+                  v-if="congrats">
                   <div class="flex justify-center items-center">
                     <img class="w-40 py-4" src="../assets/yendo.png" alt="Sunset in the mountains">
                   </div>
@@ -177,9 +179,10 @@
                   </div>
                 </div>
                 <!---->
-                <div class="max-w-full rounded overflow-hidden shadow-lg" v-if="success">
+                <div class="bg-gradient-to-b from-blue-300 py-3 to-blue-600 max-w-full rounded overflow-hidden shadow-lg"
+                  v-if="success">
                   <div class="flex justify-center items-center">
-                    <img class="w-40 py-4 rounded-full" src="../assets/dignidad.jpg" alt="Sunset in the mountains">
+                    <img class="w-40 rounded-full" src="../assets/dignidad.jpg" alt="Sunset in the mountains">
                   </div>
                   <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2 flex justify-center items-center">Movimiento popular La Dignidad
