@@ -162,20 +162,20 @@
                   </div>
                   <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2 flex justify-center items-center">Yendo.site</div>
-                    <div class="flex justify-center items-center">
+                    <div class="">
                       <p class="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-                        perferendis eaque, exercitationem praesentium nihil.
-                      </p>
+                        Yendo.site es una app para encontrar todos los eventos en un solo lugar. Diseñada y creada por
+                        un amigo Senior.
+                        Ayudo maquetando algunos componentes con vue.js & Nuxt.js. también usando Apis para conectar
+                        datos. </p>
                     </div>
                   </div>
                   <div class="px-6 pt-4 pb-2 flex justify-center items-center">
-                    <span
-                      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                    <span
-                      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                    <span
-                      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                    <a href="http://yendo.site">
+                      <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
+                        a Yendo.site</span>
+                    </a>
                   </div>
                 </div>
                 <!---->
@@ -183,25 +183,26 @@
                   <div class="flex justify-center items-center">
                     <img class="w-40 py-4 rounded-full" src="../assets/dignidad.jpg" alt="Sunset in the mountains">
                   </div>
-
                   <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2 flex justify-center items-center">Movimiento popular La Dignidad
                     </div>
                     <div class="flex justify-center items-center">
-                      <p class="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-                        perferendis eaque, exercitationem praesentium nihil.
-                      </p>
-                    </div>
+                      <a href="https://mp-rural-dignidad.herokuapp.com/">
+                        <p class="text-gray-700 text-base">
+                          MP-La Dignidad es un sitio para brindar información sobre las actividades y los hechos más
+                          importantes de la organización social.
+                          Creada y diseñada por mi. Usando Nuxt.js, TailwindCss y Axios entro otros. En producción.
+                        </p>
+                      </a>
 
+                    </div>
                   </div>
                   <div class="px-6 pt-4 pb-2 flex justify-center items-center">
-                    <span
-                      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                    <span
-                      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                    <span
-                      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                    <a href="">
+                      <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ir
+                        a MP-La Dignidad</span>
+                    </a>
                   </div>
                 </div>
               </div>
