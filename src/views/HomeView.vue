@@ -93,7 +93,7 @@
             <!---->
             <!--Skills-->
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <p class="leading-relaxed text-base text-2xl flex justify-center items-center">Skills</p>
+              <p class="leading-relaxed text-2xl flex justify-center items-center">Skills</p>
               <hr>
               <br>
               <div class="md:flex font-bold text-gray-800">
@@ -132,6 +132,32 @@
                 </div>
               </div>
               <br>
+            </div>
+            <!---->
+            <!--Skills Back-End-->
+            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+              <p class="leading-relaxed text-gray-800 text-2xl flex justify-center items-center">Skills Back-End</p>
+              <hr>
+              <br>
+              <div class=" w-full md:w-full space-x-3 flex font-bold justify-center items-center">
+                <div v-on:click="value =!value"
+                  class="w-1/2 hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
+                  <div class="flex justify-center items-center">
+                    <img class="w-16 h-10 rounded" src="https://ubunlog.com/wp-content/uploads/2020/04/about-nodejs.png"
+                      alt="">
+                  </div>
+                  <p v-if="value" class="flex justify-center items-center">Node.js</p>
+                </div>
+                <div v-on:click="value =!value"
+                  class="w-1/2 hover:bg-green-200 py-1 font-bold shadow-lg shadow-teal-500/50 rounded-full">
+                  <div class="flex justify-center items-center">
+                    <img class="w-16 h-10 rounded"
+                      src="https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/npm.png"
+                      alt="">
+                  </div>
+                  <p v-if="value" class="flex justify-center items-center">NPM</p>
+                </div>
+              </div>
             </div>
             <!---->
             <!--Online Works-->
