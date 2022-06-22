@@ -93,7 +93,7 @@
             <!---->
             <!--Skills-->
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <p class="leading-relaxed text-2xl flex justify-center items-center">Skills</p>
+              <p class="leading-relaxed text-2xl flex justify-center items-center">Skills Front-End</p>
               <hr>
               <br>
               <div class="md:flex font-bold text-gray-800">
