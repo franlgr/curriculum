@@ -144,7 +144,7 @@
                   <div v-on:click="value =!value"
                     class="w-full hover:bg-green-200 py-1 shadow-lg shadow-teal-500/50 rounded-full">
                     <div class="flex justify-center items-center">
-                      <img class="w-16 h-10 rounded"
+                      <img class="w-20 h-10 rounded"
                         src="https://ubunlog.com/wp-content/uploads/2020/04/about-nodejs.png" alt="">
                     </div>
                     <p class="flex justify-center items-center" v-if="value">Node.js</p>
