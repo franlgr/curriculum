@@ -10,6 +10,13 @@
           2</button>
       </router-link>
     </nav>
+    <div>
+      <Adsense 
+      data-ad-client="ca-pub-8627466046363756"
+       data-ad-slot="">
+      </Adsense>
+
+    </div>
     <router-view />
     <footer class="bg-gray-200 text-center lg:text-left">
       <div class="text-gray-700 text-center p-4 bg-blue-600">

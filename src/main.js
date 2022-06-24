@@ -17,6 +17,7 @@ Vue.use(require('vue-script2'));
 Vue.use(Ads.Adsense);
 Vue.use(Ads.InArticleAdsense);
 Vue.use(Ads.InFeedAdsense);
+Vue.use(Ads.AutoAdsense, { adClient: 'ca-pub-8627466046363756', isNewAdsCode: true })
 
 
 Vue.config.productionTip = false;
