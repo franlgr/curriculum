@@ -11,11 +11,11 @@
       </router-link>
     </nav>
     <div>
+      <p>Ads:</p>
       <Adsense 
       data-ad-client="ca-pub-8627466046363756"
        data-ad-slot="">
       </Adsense>
-
     </div>
     <router-view />
     <footer class="bg-gray-200 text-center lg:text-left">
