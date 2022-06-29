@@ -13,6 +13,8 @@ Vue.use(VueMeta);
 // import VeeValidate from 'vee-validate';
 // Vue.use(VeeValidate);
 import Ads from 'vue-google-adsense';
+import Adsense from 'vue-google-adsense/dist/Adsense.min.js'
+Vue.use(Adsense)
 Vue.use(require('vue-script2'));
 Vue.use(Ads.Adsense);
 Vue.use(Ads.InArticleAdsense);

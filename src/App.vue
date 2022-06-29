@@ -29,6 +29,7 @@
 </template>
 
 <script>
+import Adsense from 'vue-google-adsense/dist/Adsense.min.js'
 // import { ValidationProvider } from 'vee-validate';
 // Vue.component('ValidationProvider', ValidationProvider);
 import BotComponent from "./components/botComponent.vue";
